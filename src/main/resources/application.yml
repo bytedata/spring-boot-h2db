@@ -1,0 +1,17 @@
+server:
+  port: ${port:8800}
+spring:
+  application:
+    name: product-stock-service
+  jpa:
+    genarate-ddl: true
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled:  true
+      path: /h2DB
+#      
+   
+   
+   
